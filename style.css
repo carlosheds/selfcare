@@ -73,10 +73,10 @@ main {
     display: flex;
     justify-content: space-between;
 
-    padding: 20px 30px;
+    padding: 20px 40px;
     margin-bottom: 20px;
 
-    border-bottom: 1px solid var(--Cinza-footer);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.05);
 }
 
 .content .promo h4 {
@@ -165,6 +165,10 @@ main {
     font-weight: bold;
 }
 
+.footer .footer-links ul li a {
+    color: var(--Preto);
+}
+
 .footer .subscription label {
     display: block;
 
@@ -221,10 +225,6 @@ hr {
 
 .footer .icons ul {
     display: flex;
-}
-
-.footer .icons ul span {
-    /* display: inline-block; */
 }
 
 .footer .icons ul li {
