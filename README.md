@@ -1,3 +1,5 @@
+<a href="https://carlosheds.github.io/selfcare/"> <h1>Result</h1> </a>
+
 # Choices
 ## Mobile
 O banner do site foi difícil.No início coloquei a imagem dentro de uma ```<div>``` e apliquei ```overflow-x: hidden;```. Depois para deixar a ```<img>``` do tamanho correto e sempre com o banner centralizado, fui tentando colocar ```max-width:;```, ```min-width:;``` , ```display:flex;```,```transform: translate-x:;``` e tentei também mudar a estratégia colocando a imagem como background. Somente obtive sucesso quando utilizei ```min-width:200vw; transform: translateX(-50vw);``` e ```width:100vw;``` na tag da imagem. Dessa forma o banner ficou responsivo e sempre centralizado.<p>Nos items com imagem e preço, utilizei basicamente a mesma estratégia do banner. Utilizei também ```display:flex;``` com ```flex-wrap:wrap;``` e ```justify-content:space-between;``` para que os items fiquem como colunas<p>No footer tive uma pequena dificuldade com a linha divisória. Criei um ```<hr>``` no html e o coloquei como ```position:absolute;``` para fazer com que o padding do footer fosse ignorado.</p>
